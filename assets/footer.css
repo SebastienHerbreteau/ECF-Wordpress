@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    font-family: nunito;
+}
+
+.logo{
+    display: flex;
+}
+
+.ensemble-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer>
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
