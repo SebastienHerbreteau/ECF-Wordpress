@@ -1,8 +1,10 @@
 <?php
 wp_footer();
+
 ?>
+<?= get_template_directory_uri()?>
 <footer>
-    <img src="img/logo.jpg">
+    <img class="logo" src="http://ecf-wordpress/wp-content/themes/ECF-Wordpress/img/logo.jpg">
     <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
     <div class="ensemble-footer">
         <nav class="nav-footer">
