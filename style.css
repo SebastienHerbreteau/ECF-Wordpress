@@ -1,7 +1,34 @@
-@import "assets/reset.css";
-@import "assets/global.css";
-@import "assets/footer.css";
+@import "assets/style/reset.css";
+@import "assets/style/headings.css";
+@import "assets/style/globals.css";
+@import "assets/style/buttons.css";
+@import "assets/style/media-text.css";
+@import "assets/style/paragraphs.css";
+@import "assets/style/header.css";
+@import "assets/style/footer.css";
+@import "assets/style/blocks.css";
+@import "assets/style/images.css";
+@import "assets/style/articles.css";
+
+/* 
+
 @import "assets/button.css";
 @import "assets/paragraphs.css";
-@import "assets/headings.css";
+@import "assets/blocks.css";
+@import "assets/single-biens.css"; */
+
+
+body{
+    padding-right: 16px;
+    padding-left: 16px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
 

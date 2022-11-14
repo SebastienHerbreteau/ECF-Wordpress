@@ -1,0 +1,44 @@
+.container-articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+
+.container-post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.post {
+    width: 50%;
+    height: fit-content;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post>img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.date-cat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 16px;
+    gap: 40px;
+    margin-bottom: 80px;
+}

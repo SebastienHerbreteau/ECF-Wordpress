@@ -1,0 +1,10 @@
+.wp-block-group {
+  max-width: 1280px;
+}
+
+.wp-block-group__inner-container {
+  background-color: #FAFAFA;
+  padding: 80px 72px 80px 72px;
+}
+
+/*# sourceMappingURL=media-text.css.map */

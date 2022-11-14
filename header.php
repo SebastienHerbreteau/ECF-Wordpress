@@ -11,12 +11,14 @@
     <?php
     wp_head();
     ?>
-
 </head>
 
-<body <?php body_class(); ?>>
-    <header class="header">
-
+<body>
+    <header>
+        <div class="container-logo">
+            <img class="logo" src="<?= get_template_directory_uri() ?>/img/logo.png">
+            <p>dhalem</p>
+        </div>
+        <?php wp_nav_menu(['theme_location' => 'header']); ?>
+        <button class="button-header">Get a Quote</button>
     </header>
-    <?php wp_body_open(); ?>
-    <?php wp_nav_menu(['theme_location' => 'menu-header']); ?>

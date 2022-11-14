@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    height: fit-content;
+    padding: 16px 24px 16px 24px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    max-width: 1280px;
+    top: 0;
+}
+
+.container-logo{
+    display: flex;
+    position: absolute;
+    left: 16px;
+}
+
+.container-logo>img{
+    
+    width: 24px;
+    height: 24px;
+}
+
+.container-logo>p{
+    font-weight: bold;
+}
+
+.menu-item>a{
+    color: gray;
+    text-decoration: none;
+}
+#menu-navigation{
+    display: flex;
+    gap: 16px;
+    font-family: nunito;
+    
+}
+
+.button-header{
+    padding: 4px 24px 2px 24px;
+    background-color: #3854B5;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    height: 32px;
+    font-family: nunito;
+}
